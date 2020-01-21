@@ -22,3 +22,19 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new 
 jim.first_name = "Jim"
 jim.last_name = "Smith" 
+
+some_more_knowledge = avi.teach 
+steve.learn(some_more_knowledge) 
+
+bob = Student.new
+bob.first_name = "Bob"
+bob.last_name = "Jones" 
+
+knowledge1 = avi.teach 
+knowledge2 = avi.teach 
+bob.learn(knowledge1)
+bob.learn(knowledge2) 
+
+steve.knowledge.each do |piece|
+  puts piece
+end 
