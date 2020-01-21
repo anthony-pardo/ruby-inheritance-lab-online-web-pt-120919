@@ -35,10 +35,12 @@ knowledge2 = avi.teach
 bob.learn(knowledge1)
 bob.learn(knowledge2) 
 
+puts "Steve knows: "
 steve.knowledge.each do |piece|
   puts piece
 end 
 
+puts "Bob knows: "
 bob.knowledge.each do |piece|
   puts piece
 end 
