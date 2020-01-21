@@ -38,3 +38,7 @@ bob.learn(knowledge2)
 steve.knowledge.each do |piece|
   puts piece
 end 
+
+bob.knowledge.each do |piece|
+  puts piece
+end 
